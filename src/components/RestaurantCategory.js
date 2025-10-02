@@ -17,7 +17,7 @@ const handleClick=() => {
                 <span className="font-bold text-m">{data.title} ({data.itemCards.length})</span>
                 <span>⬇️</span>
               </div>
-               {showItems && <ItemList items={data.itemCards}/>}
+               {showItems && <ItemList items={data.itemCards} showAddButton={true}/>}
             </div>
             {/*body*/}
         </div>
