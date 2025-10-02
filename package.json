@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npx parcel index.html",
     "test": "jest",
-    "watch-jest":"jest --watch"
+    "watch-jest":"jest --watch",
+    "build": "parcel build index.html --dist-dir build" 
   },
   "keywords": [
     "darshit"
