@@ -2,7 +2,6 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React Projet",
-  "main": "index.html",
   "scripts": {
     "start": "npx parcel index.html",
     "test": "jest",
